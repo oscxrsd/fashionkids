@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <title>FashionKids</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/responsive.css">
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+   </head>
+
+   <body class="main-layout">
+
+      <div class="loader_bg">
+         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+      </div>
+
+      <header>
+
+         <div class="header">
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
+                     <div class="full">
+                        <div class="center-desk">
+                           <div class="logo">
+                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
+                     <nav class="navigation navbar navbar-expand-md navbar-dark ">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarsExample04">
+                           <ul class="navbar-nav mr-auto">
+                              <li class="nav-item active">
+                                 <a class="nav-link" href="index.html">Inicio</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="acercade.html">Acerca de</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="ropa.html">Nuestra Coleccion</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="tienda.html">Tienda</a>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" href="contacto.html">Contacto</a>
+                              </li>
+                              <li class="nav-item d_none login_btn">
+                                 <a class="nav-link" href="Login.html">Login</a>
+                              </li>
+                              <li class="nav-item d_none">
+                                 <a class="nav-link" href="registro.html">Registrarse</a>
+                              </li>
+                              <li class="nav-item d_none sea_icon">
+                                 <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i><i class="fa fa-search" aria-hidden="true"></i></a>
+                              </li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+                  <script>
+                     const username = window.localStorage.getItem('username');
+                     if (username) {
+                         document.write("<h1>Bienvenido, " + username + "!</h1>");
+                     } else {
+                         document.write("<h1>Bienvenido!</h1>");
+                     }
+                  </script>
+               </div>
+            </div>
+         </div>
+      </header>
+      <section class="banner_main">
+         <div id="banner1" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+               <li data-target="#banner1" data-slide-to="0" class="active"></li>
+               <li data-target="#banner1" data-slide-to="1"></li>
+               <li data-target="#banner1" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1> <span class="blu">Bienvenido <br></span>a FashionKids</h1>
+                           <figure><img src="images/imagen5.jpg" alt="#"/></figure>
+                           <a class="read_more" href="#">Compra Ahora</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1> <span class="blu">Bienvenido <br></span>a FashionKids</h1>
+                           <figure><img src="images/banner_img.png" alt="#"/></figure>
+                           <a class="read_more" href="#">Compra Ahora</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="carousel-item">
+                  <div class="container">
+                     <div class="carousel-caption">
+                        <div class="text-bg">
+                           <h1> <span class="blu">Bienvenido <br></span>a FashionKids</h1>
+                           <figure><img src="images/imagen11.jpg" alt="#"/></figure>
+                           <a class="read_more" href="#">Compra Ahora</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a class="carousel-control-prev" href="#banner1" role="button" data-slide="prev">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            </a>
+            <a class="carousel-control-next" href="#banner1" role="button" data-slide="next">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </a>
+         </div>
+      </section>
+      <div class="about">
+         <div class="container">
+            <div class="row d_flex">
+               <div class="col-md-5">
+                  <div class="about_img">
+                     <figure><img src="images/about_img.png" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-7">
+                  <div class="titlepage">
+                     <h2>Acerca de Nuestra Ropa </h2>
+                     <p>te invitamos a descubrir el corazón y el alma de nuestras colecciones. 
+                        Cada prenda que seleccionamos y diseñamos está impregnada de dedicación y 
+                        cuidado, con el objetivo de ofrecer a tus pequeños no solo ropa, sino experiencias memorables.</p>
+                  </div>
+                  <a class="read_more" href="#">leer más</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="glasses">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-10 offset-md-1">
+                  <div class="titlepage">
+                     <h2>Nuestra Ropa </h2>
+                     <p>Nos enorgullece destacar la calidad excepcional de nuestras telas, confección y detalles. 
+                        Cada puntada cuenta una historia de artesanía y durabilidad, asegurando que nuestras prendas
+                         no solo sean hermosas, sino también cómodas y resistentes al juego y la exploración diaria de los niños.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/imagen1.jpg" alt="#"/></figure>
+                     <h3><span class="blu">$</span>520.00</h3>
+                     <p>Conjunto de playera y pantalones deportivos para niños pequeños y pequeños, color azul/amarillo</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/imagen2.jpg" alt="#"/></figure>
+                     <h3><span class="blu">$</span>600.00</h3>
+                     <p>Conjunto de pijamas de Disney para niños, Pijama de verano de manga corta, imagen de dormir fina</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/imagen3.jpg" alt="#"/></figure>
+                     <h3><span class="blu">$</span>179.00</h3>
+                     <p>Playera con diseño Verde claro/Minnie Mouse</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/imagen4.jpg" alt="#"/></figure>
+                     <h3><span class="blu">$</span>249.00</h3>
+                     <p>Vestido con diseño Gris oscuro/Minnie Mouse</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/imagen5.jpg" alt="#"/></figure>
+                     <h3><span class="blu">$</span>690.00</h3>
+                     <p>Chamarra de baseball Oversized Azul oscuro/Disney</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/imagen6.jpg" alt="#"/></figure>
+                     <h3><span class="blu">$</span>549.00</h3>
+                     <p>Sudadera con gorro y diseño estampado Beige claro/Mickey Mouse</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/imagen7.jpg" alt="#"/></figure>
+                     <h3><span class="blu">$</span>399.00</h3>
+                     <p>Bailarinas con brillos Turquesa/Princesas de Disney</p>
+                  </div>
+               </div>
+               <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                  <div class="glasses_box">
+                     <figure><img src="images/imagen8.jpg" alt="#"/></figure>
+                     <h3><span class="blu">$</span>249.00</h3>
+                     <p>Vestido con diseño Azul oscuro/Frozen</p>
+                  </div>
+               </div>
+               <div class="col-md-12">
+                  <a class="read_more" href="#">leer más</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="about" class="shop">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-md-5">
+                  <div  class="shop_img">
+                     <figure><img src="images/ropa_img.png" alt="#"/></figure>
+                  </div>
+               </div>
+               <div class="col-md-7 padding_right0">
+                  <div class="max_width">
+                     <div class="titlepage">
+                        <h2>Nuestra Coleccion </h2>
+                        <p>Explora esta sección para conocer las inspiraciones detrás de nuestras creaciones,
+                            los materiales seleccionados con esmero y los valores que guían nuestro compromiso con la moda infantil de alta calidad
+                            .</p>
+                        <a class="read_more" href="#">Compra Ahora</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="clients">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage">
+                     <h2>Que dicen nuetros clientes</h2>
+                     <p>Siempre nos gusta leer la opinion de nuestra clientela, Heche un vistazo a lo que los clientes nos comparten!</p>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-12">
+                  <div id="myCarousel" class="carousel slide clients_Carousel " data-ride="carousel">
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="container">
+                              <div class="carousel-caption ">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="clients_box">
+                                          <figure><img src="images/our.png" alt="#"/></figure>
+                                          <h3>Fabiola</h3>
+                                          <p>¡Mi experiencia con la ropa de esta tienda ha sido simplemente asombrosa! 
+                                             La calidad de las prendas es excepcional; puedo sentir la suavidad de los materiales y 
+                                             la atención al detalle en cada costura. Además, la variedad de estilos es impresionante,
+                                             desde conjuntos juguetones hasta opciones elegantes para ocasiones especiales.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="clients_box">
+                                          <figure><img src="images/our.png" alt="#"/></figure>
+                                          <h3>Fabiola</h3>
+                                          <p>¡Mi experiencia con la ropa de esta tienda ha sido simplemente asombrosa! La calidad de las prendas es excepcional; puedo sentir la suavidad de los materiales y la atención al detalle en cada costura. Además, la variedad de estilos es impresionante, desde conjuntos juguetones hasta opciones elegantes para ocasiones especiales.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="container">
+                              <div class="carousel-caption">
+                                 <div class="row">
+                                    <div class="col-md-12">
+                                       <div class="clients_box">
+                                          <figure><img src="images/our.png" alt="#"/></figure>
+                                          <h3>Fabiola</h3>
+                                          <p>¡Mi experiencia con la ropa de esta tienda ha sido simplemente asombrosa! La calidad de las prendas es excepcional; puedo sentir la suavidad de los materiales y la atención al detalle en cada costura. Además, la variedad de estilos es impresionante, desde conjuntos juguetones hasta opciones elegantes para ocasiones especiales.</p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                     <i class='fa fa-angle-left'></i>
+                     </a>
+                     <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                     <i class='fa fa-angle-right'></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="contact" class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <h3>Contactanos</h3>
+                        </div>
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Nombre" type="type" name="Name"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Numero" type="type" name="Phone Number"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Email" type="type" name="Email">                          
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactusmess" placeholder="Mensaje" type="type" Message="Name">
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn">Enviar</button>
+                        </div>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="map_section">
+               <div id="map">
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <footer>
+         <div class="footer">
+            <div class="container">
+               <div class="row">
+                  <div class="col-md-8 offset-md-2">
+                     <ul class="location_icon">
+                        <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a><br> Localizacion</li>
+                        <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a><br> +01 1234567890</li>
+                        <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a><br> FashionKids@gmail.com</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="copyright">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-md-12">
+                        <p>© 2023 Todos los derechos reservados.<a href="https://html.design/"></a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <script>
+         function initMap() {
+           var map = new google.maps.Map(document.getElementById('map'), {
+             zoom: 11,
+             center: {lat: 19.420813495095114, lng: -99.13120093500731},
+              
+             });
+         var image = 'images/maps-and-flags.png';
+         var beachMarker = new google.maps.Marker({
+             position: {lat: 19.420813495095114, lng: -99.13120093500731},
+             map: map,
+             icon: image
+           });
+         }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+   </body>
+</html>
+
